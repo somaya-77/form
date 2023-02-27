@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="overlay">
+            <div class="content">
+                <div><i class="fa-regular fa-face-smile"></i></div>
+                <p>Welcome! </p>
+            </div>
+        </div>
+        <div class="form">
+            <h2>Sign Up</h2>
+            <form action="">
+                <div>
+                    <label for="">
+                        <i class="fa-solid fa-user"></i>User Name <br>
+                        <input type="text" required id="user-name">
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        <i class="fa-solid fa-envelope"></i>Email <br>
+                        <input type="email" required id="email">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="">
+                        <i class="fa-solid fa-lock"></i>Password <br>
+                        <input type="password" required id="password">
+                    </label>
+                </div>
+
+                <div>
+                    <label for="">
+                        <i class="fa-solid fa-lock"></i>Confirm Password <br>
+                        <input type="password" required id="confirmPassword">
+                    </label>
+                </div>
+
+                <div class="radio">
+                    <label for="">
+                        <input type="radio" name="gender" value="Male" checked>
+                        <span>Male</span>
+                    </label>
+                    
+                    <label for="">
+                        <input type="radio" name="gender" value="Female">
+                        <span>Female</span>
+                    </label>
+                </div>
+                
+                <div>
+                    <button id="signUp">Sign Up</button>
+                </div>
+
+                <div class="link">
+                    <a href="login.html">to login <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
